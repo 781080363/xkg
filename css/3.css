@@ -1,0 +1,119 @@
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr{
+    margin:0;
+    padding:0;}
+body{
+    font-family: "微软雅黑";
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height: 100%;
+}
+#header{
+    display: flex;
+    width: 3.75rem;
+    height: 0.63rem;
+    font-size: .16rem;
+    color:#f77b3f;
+    align-items: center;
+}
+h3{
+    font-size: .18rem;
+    color: black;
+    margin-left: .98rem;
+}
+#header img{
+    margin-left: .22rem;
+}
+#banner{
+    display: flex;
+    width: 3.75rem;
+    height:2.09rem;
+    font-size: .08rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#c4c4c4;
+}
+input{
+    border: none;
+    width: 2.78rem;
+    height: .35rem;
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+    font-size: .11rem;
+    background-color: #e7d5d5;
+}
+#people{
+    width: .5rem;
+    height: .35rem;
+    text-align: center;
+}
+#people img{
+    display: block;
+    margin: .05rem auto  0  auto;
+}
+#health{
+    width: 3.75rem;
+    height: 3.15rem;
+}
+#app{
+    display: flex;
+    width: 3.75rem;
+    height: 1rem;
+    justify-content:space-around;
+    align-items: center;
+    color:#868686;
+}
+#app li{
+    height: 50%;
+    text-align: center;
+    font-size: .11rem;
+}
+#app img{
+    display: block;
+}
+#batter{
+    display: flex;
+    width: 3.75rem;
+    height: .56rem;
+    font-size: .16rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#batter li{
+    height: 100%;
+    line-height: .56rem;
+}
+li:nth-child(1) {
+    margin-left: .12rem;
+}
+li:nth-child(2){
+
+    font-size: .14rem;
+    margin-right: .12rem;
+    color:#a89f9a;
+}
+#navigation{
+    display: flex;
+    height: .64rem;
+    width: 3.75rem;
+    font-size: .1rem;
+    line-height: .2rem;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+}
+#navigation img {
+    display: block;
+}
